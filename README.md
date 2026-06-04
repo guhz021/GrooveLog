@@ -24,9 +24,11 @@ Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados 
 
 | Tela Inicial | Lista de Artistas | Nova Review | Detalhes da Review |
 | :---: | :---: | :---: | :---: |
-| ![Home](<img width="474" height="927" alt="Captura de tela 2026-06-04 154528" src="https://github.com/user-attachments/assets/7277ee18-100d-4b7c-bccb-0ba634d4be2b" />
-) | <img width="458" height="924" alt="Captura de tela 2026-06-04 154623" src="https://github.com/user-attachments/assets/212a2a01-08a5-40c8-acc9-01a46d2e0702" />
- | ![Nova Review](link_da_imagem_aqui) | ![Detalhes](link_da_imagem_aqui) |
+| <img width="474" height="927" alt="Captura de tela 2026-06-04 154528" src="https://github.com/user-attachments/assets/d36f727f-7618-458b-ae4a-d780b64120a7" />
+ | <img width="458" height="924" alt="Captura de tela 2026-06-04 154623" src="https://github.com/user-attachments/assets/212a2a01-08a5-40c8-acc9-01a46d2e0702" />
+ | <img width="459" height="916" alt="Captura de tela 2026-06-04 154745" src="https://github.com/user-attachments/assets/338e42df-baa2-47b1-ae46-b54fd98e173d" />
+|<img width="468" height="926" alt="Captura de tela 2026-06-04 154831" src="https://github.com/user-attachments/assets/c726980b-2224-4952-8e54-f729608bcb01" />
+|
 
 ---
 
