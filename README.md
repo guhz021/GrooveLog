@@ -3,7 +3,7 @@
 
 O **GrooveLog** é um aplicativo Android nativo desenvolvido para ser o seu diário musical pessoal. Com ele, você pode catalogar seus artistas favoritos e registrar análises detalhadas (reviews) sobre os álbuns que você ouviu.
 
-Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados local, o projeto utiliza um banco de dados relacional e apresenta uma interface moderna em Dark Mode (paleta "Fiery Ocean").
+Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados local, o projeto utiliza um banco de dados relacional e apresenta uma interface.
 
 ---
 
