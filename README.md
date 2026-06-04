@@ -1,1 +1,58 @@
-# GrooveLog
+<h1 align="center"> Projeto: Programação para Dispositivos Móveis </h1>
+# 🎵 GrooveLog
+
+O **GrooveLog** é um aplicativo Android nativo desenvolvido para ser o seu diário musical pessoal. Com ele, você pode catalogar seus artistas favoritos e registrar análises detalhadas (reviews) sobre os álbuns que você ouviu.
+
+Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados local, o projeto utiliza um banco de dados relacional e apresenta uma interface moderna em Dark Mode (paleta "Fiery Ocean").
+
+---
+
+## ✨ Funcionalidades
+
+* **Gerenciamento de Artistas (CRUD):** Adicione, edite, visualize e exclua artistas, incluindo nome e gênero musical.
+* **Diário de Reviews (CRUD Relacional):** Registre álbuns vinculando-os obrigatoriamente a um artista cadastrado (relação 1:N).
+* **Campos Detalhados:** Registre a data da audição (via `DatePicker` nativo), faixas favoritas e uma análise em texto livre.
+* **Validação de Dados:** Feedbacks visuais (`setError`) impedem o salvamento de formulários em branco.
+* **Empty States:** Telas amigáveis informam o usuário quando o banco de dados está vazio.
+* **Design Flat & Dark Mode:** Interface sem sombras (elevação 0dp), cores de alto contraste para leitura e orientação travada em modo retrato (Portrait) para evitar quebras de layout.
+
+---
+
+## 📱 Telas do Aplicativo
+
+> **Nota:** Adicione os prints do seu aplicativo aqui na pasta do GitHub.
+
+| Tela Inicial | Lista de Artistas | Nova Review | Detalhes da Review |
+| :---: | :---: | :---: | :---: |
+| ![Home](link_da_imagem_aqui) | ![Artistas](link_da_imagem_aqui) | ![Nova Review](link_da_imagem_aqui) | ![Detalhes](link_da_imagem_aqui) |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java
+* **Plataforma:** Android SDK (API 34)
+* **Banco de Dados:** [Room Persistence Library](https://developer.android.com/training/data-storage/room) (Abstração do SQLite)
+* **Interface:** XML + Material Design Components
+* **Arquitetura:** Padrão de repositório local com DAOs (Data Access Objects) e Entidades.
+
+---
+
+## 🗄️ Estrutura do Banco de Dados
+
+O aplicativo utiliza a biblioteca **Room** para gerenciar o SQLite nativo do Android. O banco consiste em duas entidades principais:
+
+1. **Artista:** `id` (Primary Key), `nome`, `genero`.
+2. **Review:** `id` (Primary Key), `nomeAlbum`, `dataAudicao`, `faixasFavoritas`, `analise`, `artistaId` (Foreign Key).
+
+---
+
+## 🚀 Como Executar o Projeto
+
+Para clonar e executar este aplicativo no seu computador, você precisará do [Git](https://git-scm.com) e do [Android Studio](https://developer.android.com/studio) instalados.
+
+### Passo a passo:
+
+1. Abra o terminal do seu computador e clone o repositório:
+```bash
+   git clone [https://github.com/SEU_USUARIO/GrooveLog.git](https://github.com/SEU_USUARIO/GrooveLog.git)
