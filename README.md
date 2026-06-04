@@ -1,5 +1,5 @@
 <h1 align="center"> Projeto: Programação para Dispositivos Móveis </h1>
-# 🎵 GrooveLog
+🎵 GrooveLog
 
 O **GrooveLog** é um aplicativo Android nativo desenvolvido para ser o seu diário musical pessoal. Com ele, você pode catalogar seus artistas favoritos e registrar análises detalhadas (reviews) sobre os álbuns que você ouviu.
 
@@ -53,6 +53,10 @@ Para clonar e executar este aplicativo no seu computador, você precisará do [G
 
 ### Passo a passo:
 
-1. Abra o terminal do seu computador e clone o repositório:
-```bash
-   git clone [https://github.com/SEU_USUARIO/GrooveLog.git](https://github.com/SEU_USUARIO/GrooveLog.git)
+1. Abra o terminal do seu computador e clone o repositório
+2. Abra o Android Studio.
+3. Clique em File > Open e selecione a pasta do projeto clonado.
+4. Aguarde o Gradle sincronizar todas as dependências (uma barra de carregamento aparecerá no rodapé).
+5. Após a sincronização, conecte o seu smartphone Android (com a depuração USB ativada) ou inicie um Emulador Virtual (recomendado: Pixel 7, API 33 ou superior).
+6. Clique no botão de Run (Shift + F10) na barra superior verde.
+
