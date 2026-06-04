@@ -24,7 +24,8 @@ Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados 
 
 | Tela Inicial | Lista de Artistas | Nova Review | Detalhes da Review |
 | :---: | :---: | :---: | :---: |
-| ![Home](link_da_imagem_aqui) | ![Artistas](link_da_imagem_aqui) | ![Nova Review](link_da_imagem_aqui) | ![Detalhes](link_da_imagem_aqui) |
+| ![Home](<img width="474" height="927" alt="Captura de tela 2026-06-04 154528" src="https://github.com/user-attachments/assets/7277ee18-100d-4b7c-bccb-0ba634d4be2b" />
+) | ![Artistas](link_da_imagem_aqui) | ![Nova Review](link_da_imagem_aqui) | ![Detalhes](link_da_imagem_aqui) |
 
 ---
 
