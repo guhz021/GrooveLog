@@ -14,7 +14,7 @@ Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados 
 * **Campos Detalhados:** Registre a data da audição (via `DatePicker` nativo), faixas favoritas e uma análise em texto livre.
 * **Validação de Dados:** Feedbacks visuais (`setError`) impedem o salvamento de formulários em branco.
 * **Empty States:** Telas amigáveis informam o usuário quando o banco de dados está vazio.
-* **Design Flat & Dark Mode:** Interface sem sombras (elevação 0dp), cores de alto contraste para leitura e orientação travada em modo retrato (Portrait) para evitar quebras de layout.
+
 
 ---
 
