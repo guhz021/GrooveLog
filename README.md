@@ -20,7 +20,7 @@ Desenvolvido com foco em Experiência do Usuário (UX) e persistência de dados 
 
 ## 📱 Telas do Aplicativo
 
-> **Nota:** Adicione os prints do seu aplicativo aqui na pasta do GitHub.
+
 
 | Tela Inicial | Lista de Artistas | Nova Review | Detalhes da Review |
 | :---: | :---: | :---: | :---: |
