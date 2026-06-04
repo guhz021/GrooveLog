@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.GrooveLog" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#C1121F</item>
+        <item name="android:statusBarColor">#003049</item>
+    </style>
+
+    <style name="Theme.GrooveLog" parent="Base.Theme.GrooveLog" />
+</resources>

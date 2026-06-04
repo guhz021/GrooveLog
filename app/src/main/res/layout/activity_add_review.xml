@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#003049"
+    tools:ignore="All">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar Review"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="#FDF0D5"
+                    android:layout_marginBottom="24dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    app:strokeWidth="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="24dp"
+                        android:background="#FDF0D5"
+                        tools:ignore="All">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Selecione o Artista:"
+                            android:textColor="#003049"
+                            android:layout_marginBottom="4dp"/>
+
+                        <Spinner
+                            android:id="@+id/spinner_artistas"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:minHeight="48dp"
+                            android:layout_marginBottom="16dp" />
+
+                        <EditText
+                            android:id="@+id/edit_nome_album"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="48dp"
+                            android:hint="Nome do Álbum"
+                            android:textColorHint="#669BBC"
+                            android:textColor="#003049"
+                            android:inputType="text"
+                            android:layout_marginBottom="16dp" />
+
+                        <EditText
+                            android:id="@+id/edit_data_audicao"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="48dp"
+                            android:hint="Data da Audição"
+                            android:textColorHint="#669BBC"
+                            android:textColor="#003049"
+                            android:focusable="false"
+                            android:clickable="true"
+                            android:layout_marginBottom="16dp" />
+
+                        <EditText
+                            android:id="@+id/edit_faixas_favoritas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="48dp"
+                            android:hint="Faixas Favoritas"
+                            android:textColorHint="#669BBC"
+                            android:textColor="#003049"
+                            android:inputType="text"
+                            android:layout_marginBottom="16dp" />
+
+                        <EditText
+                            android:id="@+id/edit_analise"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minHeight="48dp"
+                            android:hint="Sua Análise"
+                            android:textColorHint="#669BBC"
+                            android:textColor="#003049"
+                            android:gravity="top"
+                            android:inputType="textMultiLine"
+                            android:lines="4" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            tools:ignore="All">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_voltar_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/ic_seta_voltar"
+                app:fabSize="normal"
+                app:backgroundTint="#C1121F"
+                app:tint="#FDF0D5"
+                android:contentDescription="Voltar"
+                app:elevation="0dp" />
+
+            <Button
+                android:id="@+id/btn_salvar_review"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Salvar Review"
+                android:textColor="#FDF0D5"
+                app:backgroundTint="#C1121F"
+                app:cornerRadius="16dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
